@@ -1,0 +1,36 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #666;
+}
+#a{  
+    width: 200px;
+    height: 200px;
+    background-color: rgb(156, 146, 146);
+
+}
+.b{   /*id选择器唯一使用*/
+    width: 200px;
+    height: 200px;
+    background-color: rgb(22, 3, 3);
+}
+/*后代选择器*/
+.outer{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(173, 123, 123);
+}
+.outer .inner{
+    height: 30px;
+    display: block;
+    background: rgb(241, 222, 225);
+}
+*{/*全局使用*/
+    padding: 0;
+    margin: 0;
+}
+
+#btn{
+    background-color: blue;
+    padding: 100px 75px;
+}
